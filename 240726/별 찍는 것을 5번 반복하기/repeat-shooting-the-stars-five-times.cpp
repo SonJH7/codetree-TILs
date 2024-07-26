@@ -2,7 +2,8 @@
 using namespace std;
 
 void star(){
-    cout << "**********";
+    cout << "**********" << endl;
+
 }
 int main() {
     star();
