@@ -2,6 +2,8 @@
 using namespace std;
 
 bool isprime(int i){
+    if(i == 1)
+        return false;
     for(int j=2; j<i; j++){
         if(i%j == 0)
             return false;
@@ -12,6 +14,7 @@ bool isprime(int i){
 int main() {
     int a, b, sum=0;
     cin >> a >> b;
+    
     for(int i=a; i<=b; i++){
         if (isprime(i))
             sum += i;
