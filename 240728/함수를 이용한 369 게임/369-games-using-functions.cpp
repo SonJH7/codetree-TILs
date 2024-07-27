@@ -4,7 +4,7 @@ bool ismankjok(int i){
     int sum=0, digit;
     while(i > 0){
         digit = i%10;
-        if(digit % 3 ==0)
+        if(digit % 3 ==0  && digit != 0)
             return true;
         sum += digit;
         i/=10;
