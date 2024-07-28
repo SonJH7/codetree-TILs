@@ -31,6 +31,6 @@ int main() {
     else if(b == '/')
         isdivide(a,c);
     else
-        cout << "false";
+        cout << "False";
     return 0;
 }
