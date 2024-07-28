@@ -24,11 +24,13 @@ int main() {
     cin >> a >> b >> c;
     if(b == '+')
         isplus(a,c);
-    if(b == '-')
+    else if(b == '-')
         isminus(a,c);
-    if(b == '*')
+    else if(b == '*')
         ismul(a,c);
-    if(b == '/')
+    else if(b == '/')
         isdivide(a,c);
+    else
+        cout << "false";
     return 0;
 }
