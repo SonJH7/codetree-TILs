@@ -10,7 +10,7 @@ bool isonjean(int i){
 int main() {
     int a, b, count=0;
     cin >> a >> b;
-    for(int i=20; i<=30; i++){
+    for(int i=a; i<=b; i++){
         if(isonjean(i))
             count++;
     }
