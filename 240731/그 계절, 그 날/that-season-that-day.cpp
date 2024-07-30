@@ -28,7 +28,7 @@ const char* isdate(int m, int d,int y){
         return "Summer";
     else if (m>=9 && m<= 11)
         return "Fall";
-    else if ()
+    else 
         return "Winter";
     return 0;
 }
