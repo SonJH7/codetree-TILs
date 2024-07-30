@@ -3,7 +3,7 @@ using namespace std;
 
 const char* isdate(int m, int d,int y){
     
-    if((m == 5 ||  m == 3 || m == 7 || m == 8 || m == 10 || m == 12) && (d == 31) ){
+    if((m == 5 ||  m == 3 || m == 1 || m == 7 || m == 8 || m == 10 || m == 12) && (d == 31) ){
         if(m==3 || m== 5)
             return "Spring";
         else if(m== 7 || m== 8)
@@ -28,7 +28,7 @@ const char* isdate(int m, int d,int y){
         return "Summer";
     else if (m>=9 && m<= 11)
         return "Fall";
-    else
+    else if ()
         return "Winter";
     return 0;
 }
