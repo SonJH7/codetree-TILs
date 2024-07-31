@@ -18,8 +18,9 @@ int main() {
 
     for(int i=0; i<n; i++){
         cin >> arr[i];
-        my_abs(arr,n);
+       
     }
+     my_abs(arr,n);
 
     return 0;
 }
