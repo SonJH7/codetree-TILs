@@ -15,7 +15,7 @@ int my_check(int arr[]){
 int main() {
     string s;
     cin >> s;
-    int arr[26];
+    int arr[26] = {0};
     for(int i=0; i<s.length(); i++){
         arr[s[i]-'a']++;
     }
