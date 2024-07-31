@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void my_abs(int arr[])
+void my_abs(int arr[], int n)
 {   
     
     for(int i=0; i<n; i++){
@@ -18,7 +18,7 @@ int main() {
 
     for(int i=0; i<n; i++){
         cin >> arr[i];
-        my_abs(arr);
+        my_abs(arr,n);
     }
 
     return 0;
