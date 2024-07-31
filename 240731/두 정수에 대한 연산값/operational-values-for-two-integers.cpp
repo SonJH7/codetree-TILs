@@ -4,7 +4,7 @@ void jogun(int a, int b){
     if( a > b)
         cout << a + 25 << " " << b*2;
     else
-        cout << b + 25 << " " << a*2; 
+        cout << a * 2 << " " << b+25; 
 }
 
 
