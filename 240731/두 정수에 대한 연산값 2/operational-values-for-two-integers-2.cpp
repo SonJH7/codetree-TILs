@@ -3,9 +3,9 @@ using namespace std;
 
 void mycheck(int a, int b){
     if(a>b)
-        cout << a*2 << b + 10;
+        cout << a*2 << " " << b + 10;
     else
-        cout << a+10 << b*2;
+        cout << a+10 << " " << b*2;
     
 }
 
