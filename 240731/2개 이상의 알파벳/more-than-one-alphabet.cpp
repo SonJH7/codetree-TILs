@@ -6,7 +6,6 @@ using namespace std;
 int my_check(int arr[]){
     int check = 0;
     for(int i=0; i<26; i++){
-        
         if(arr[i]>0)
             check++;
     }
