@@ -9,7 +9,7 @@ int main() {
     
     for(int i=0; i<house_count; i++)
         cin >> arr[i];
-    int min_distance = 10000;
+    int min_distance = 100000;
     for(int i=0; i<house_count; i++){
         int str_moim = i;
         int test_distance = 0;
