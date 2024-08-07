@@ -10,9 +10,9 @@ int main() {
     int a, b;
     for(int i=0; i<m; i++){
         cin >> a >> b;
-        int sum;
+        int sum = 0;
         for(int i=a-1; i<b; i++)
-            sum += i;
+            sum += arr[i];
         cout << sum << endl;
     
     }
