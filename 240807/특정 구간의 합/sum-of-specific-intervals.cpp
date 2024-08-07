@@ -10,7 +10,10 @@ int main() {
     int a, b;
     for(int i=0; i<m; i++){
         cin >> a >> b;
-        cout << arr[a-1] + arr[b-1] << endl;
+        int sum;
+        for(int i=a-1; i<b; i++)
+            sum += i;
+        cout << sum << endl;
     
     }
     return 0;
