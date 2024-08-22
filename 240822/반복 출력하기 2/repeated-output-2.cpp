@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void print_HelloWorld(int N, int n){
-    if(n < 4){
+    if(n < N){
         cout << "Helloworld\n";
         n++;
         print_HelloWorld(N,n);
