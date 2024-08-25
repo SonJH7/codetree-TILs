@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void print_star(int n, int i){
-    if(i < n){
+    if(i <= n){
         for(int j=0; j<i; j++)
             cout << "*" ;
         cout << endl;
